@@ -18,8 +18,8 @@ export default defineConfig([
       react: pluginReact,
     },
     rules: {
-      quotes: ['error', 'single', { avoidEscape: true }],
-      'jsx-quotes': ['error', 'prefer-single'],
+      // quotes: ['error', 'single', { avoidEscape: true }],
+      // 'jsx-quotes': ['error', 'prefer-single'],
       'react/react-in-jsx-scope': 'off',
       'react/jsx-uses-react': 'off',
       'no-unused-vars': 'off',

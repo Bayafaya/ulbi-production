@@ -1,0 +1,15 @@
+{
+  "Svg Component": {
+    "prefix": "fcsvg",
+    "body": [
+      "import { SVGProps } from \"../model/types\"",
+      "",
+      "const ${TM_FILENAME_BASE} = ({ size, color, ...props }: SVGProps) => {",
+      "  return <>${TM_FILENAME_BASE}</>",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE}",
+    ],
+    "description": "Creates a Filename component",
+  },
+}
