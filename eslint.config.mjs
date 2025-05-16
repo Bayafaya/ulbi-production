@@ -27,5 +27,10 @@ export default defineConfig([
       "react/no-deprecated": "warn",
       "react/jsx-indent": ["error", 2],
     },
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
   },
 ]);

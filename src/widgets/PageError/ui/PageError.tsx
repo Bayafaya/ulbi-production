@@ -12,10 +12,10 @@ const PageError = ({ className }: PageErrorProps) => {
     location.reload();
   };
   return (
-      <div className={classNames(cls.PageError, {}, [className])}>
-          <h1>{t("Произошла ошибка")}</h1>
-          <button onClick={reloadPage}>{t("обновить")}</button>
-      </div>
+    <div className={classNames(cls.PageError, {}, [className])}>
+      <h1>{t("Произошла ошибка")}</h1>
+      <button onClick={reloadPage}>{t("обновить")}</button>
+    </div>
   );
 };
 

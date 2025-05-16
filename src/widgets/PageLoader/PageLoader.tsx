@@ -4,9 +4,9 @@ import { classNames } from "shared/lib/classNames/classNames";
 
 const PageLoader = () => {
   return (
-      <div className={classNames(cls.PageLoader, {}, [])}>
-          <Loader />
-      </div>
+    <div className={classNames(cls.PageLoader, {}, [])}>
+      <Loader />
+    </div>
   );
 };
 

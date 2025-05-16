@@ -29,9 +29,9 @@ class ErrorBoundary extends React.Component<
     const { children } = this.props;
     if (hasError) {
       return (
-          <Suspense fallback="">
-              <PageError />
-          </Suspense>
+        <Suspense fallback="">
+          <PageError />
+        </Suspense>
       );
     }
     return this.props.children;

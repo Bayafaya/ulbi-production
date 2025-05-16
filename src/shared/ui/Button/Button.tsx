@@ -20,12 +20,12 @@ export const Button: FC<ButtonProps> = (props) => {
     } = props;
 
     return (
-        <button
+      <button
             className={classNames(cls.Button, {[cls[theme]]: true}, [className])}
             {...otherProps}
         >
-            {children}
-        </button>
+        {children}
+      </button>
     );
 };
 
